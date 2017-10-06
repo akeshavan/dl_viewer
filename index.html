@@ -296,17 +296,11 @@
     });
 
     mc.on('pinchend', function(e) {
-        // do something cool
-        //console.log("pinchend", window.mode)
-
+        
       if (e) {
-
         e.preventDefault()
-
         window.zoomFactor = tmpzoom
         window.panMouseDown = null
-
-
       }
 
     });
